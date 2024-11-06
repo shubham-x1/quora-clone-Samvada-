@@ -4,14 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samvada - Quora Clone</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
-        h1, h2, h3 { color: #333; }
-        ul { list-style-type: disc; padding-left: 20px; }
-        code { background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; }
-        pre { background-color: #f4f4f4; padding: 10px; border-radius: 5px; overflow: auto; }
-        img { max-width: 100%; height: auto; }
-    </style>
 </head>
 <body>
 
@@ -24,7 +16,7 @@
     <ul>
         <li><strong>Frontend</strong>: React.js, CSS, JavaScript</li>
         <li><strong>Backend</strong>: Node.js, Express.js</li>
-        <li><strong>Database</strong>: [Database of choice, e.g., MongoDB, MySQL]</li>
+        <li><strong>Database</strong>: MongoDB/MySQL</li>
     </ul>
 
     <h2>Features</h2>
@@ -37,17 +29,12 @@
         <li><strong>User Profile</strong>: Displays user's activity, posts, and engagement.</li>
     </ul>
 
-    <h2>Screenshots</h2>
-    <h3>Home Page</h3>
-    <p><img src="./screenshots/homepage.png" alt="Home Page Screenshot"></p>
-    <p><em>The above screenshot shows the homepage layout, where users can view and share their ideas, follow spaces, and interact with questions.</em></p>
-
     <h2>Installation</h2>
 
     <h3>Prerequisites</h3>
     <ul>
-        <li><strong>Node.js</strong>: Make sure you have Node.js installed (version >= 14).</li>
-        <li><strong>Database</strong>: Ensure you have [MongoDB/MySQL/PostgreSQL] installed and running.</li>
+        <li><strong>Node.js</strong>: Ensure you have Node.js installed (version >= 14).</li>
+        <li><strong>Database</strong>: Ensure you have MongoDB or MySQL installed and running.</li>
     </ul>
 
     <h3>Steps</h3>
@@ -60,7 +47,7 @@ cd samvada</code></pre>
             <pre><code>npm install</code></pre>
         </li>
         <li><strong>Configure Environment Variables</strong>
-            <p>Create a <code>.env</code> file in the root directory. Add the following variables (modify as per your setup):</p>
+            <p>Create a <code>.env</code> file in the root directory. Add the following variables:</p>
             <pre><code>PORT=3000
 DATABASE_URL=your_database_url
 JWT_SECRET=your_jwt_secret_key</code></pre>
@@ -92,10 +79,10 @@ npm start</code></pre>
 
     <h2>Future Scope</h2>
     <ul>
-        <li><strong>Enhanced Search Filters</strong>: Advanced filters to improve question discovery.</li>
-        <li><strong>User Recommendations</strong>: Personalized suggestions for spaces and topics.</li>
-        <li><strong>In-App Messaging</strong>: Allow users to communicate directly.</li>
-        <li><strong>Analytics Dashboard</strong>: Show insights on user engagement and question popularity.</li>
+        <li>Enhanced Search Filters: Advanced filters to improve question discovery.</li>
+        <li>User Recommendations: Personalized suggestions for spaces and topics.</li>
+        <li>In-App Messaging: Allow users to communicate directly.</li>
+        <li>Analytics Dashboard: Show insights on user engagement and question popularity.</li>
     </ul>
 
     <h2>Contributing</h2>
