@@ -1,0 +1,6 @@
+.full {
+ display: flex;
+ flex-direction: column;
+ flex: 0.6;
+ margin-left:-100px;
+  }

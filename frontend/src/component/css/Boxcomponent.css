@@ -1,0 +1,29 @@
+.outer{
+cursor:pointer;
+width:200px;
+justify-content: center;
+text-align: center;
+
+}
+
+.inner{
+margin:5px;
+padding:5px;
+text-align: center;
+}
+
+.inner,img{
+height:30px;
+border-radius:5px;
+}
+
+.title{
+display: flex;
+flex-direction: column; 
+flex: auto;
+}
+.title,h5{
+color:rgb(70,68,68);
+border-bottom:1px solid lightgray;
+align-items: center;
+}

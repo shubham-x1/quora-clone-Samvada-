@@ -1,0 +1,41 @@
+.contents {
+   margin-left:30px;
+   width: 80px;
+}
+  .types {
+ display: flex;
+ align-items: center;
+ padding: 10px;
+ cursor: pointer;
+ width:80px;
+
+  }
+  
+  .types:hover {
+background-color: rgb(206, 207, 207);
+ border-radius: 5px;
+ width:150px;
+  }
+ .types > img {
+ height: 10px;
+ width:10px;
+  }
+  
+  .types , .MuiSvgIcon-root {
+ font-size: medium;
+ margin-left: 20px;
+  }
+  .types , p {
+ margin-left: 10px;
+ color: gray;
+ font-weight: 400;
+ font-size: 13px;
+  }
+  
+  .types , .text {
+ color: gray;
+ font-weight: 400;
+ font-size: 13px;
+ margin-top:10px;
+ margin-left:20px;
+  }

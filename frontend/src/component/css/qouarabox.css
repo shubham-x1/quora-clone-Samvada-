@@ -1,0 +1,24 @@
+.firstbox{
+display:flex;
+
+padding:10px;
+margin-left:20px;
+margin-right:20px;
+border-radius:5px;
+cursor:pointer;
+width:850px;
+}
+.question,h2{
+  color: rgb(107, 38, 38);
+  font-weight: bold;
+  margin-right:200px;
+  text-align: center; 
+  font-size:32px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+;
+}
+
+.question{
+display:flex;
+margin-bottom:-20px;
+}
